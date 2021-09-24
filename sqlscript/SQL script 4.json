@@ -2,7 +2,7 @@
 	"name": "SQL script 4",
 	"properties": {
 		"content": {
-			"query": "SELECT TOP (100) [OrderID]\n,[CustomerID]\n,[OrderDate]\n FROM [dbo].[Orders]",
+			"query": "SELECT TOP (100) [OrderID]\n,[CustomerID]\n,[OrderDate]\n FROM [dbo].[Orders2]",
 			"metadata": {
 				"language": "sql"
 			},
