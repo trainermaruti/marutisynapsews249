@@ -1,0 +1,17 @@
+{
+	"name": "SQL script 3",
+	"properties": {
+		"content": {
+			"query": "SELECT TOP (100) [OrderID]\n,[OrderDate]\n,[OrderDescription]\n FROM [dbo].[Orders_Staging]",
+			"metadata": {
+				"language": "sql"
+			},
+			"currentConnection": {
+				"databaseName": "marutisqldpool249",
+				"poolName": "marutisqldpool249"
+			},
+			"resultLimit": 5000
+		},
+		"type": "SqlQuery"
+	}
+}
